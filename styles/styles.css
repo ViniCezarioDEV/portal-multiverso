@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jetbrains-mono {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background: url(../images/stars-space.gif);
+}
+
+header {
+    background-color: rgba(61, 29, 125, 0.822);
+    padding: 2vh;
+}
+
+p {
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-family: "New Amsterdam", sans-serif;
+    text-align: center;
+}
+
+#titulo {
+    color: black;
+    font-family: "New Amsterdam", sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+#primeira-noticia-texto {
+    font-family: Calibri;
+    padding-top: 50px;
+    color: #BE86D0;
+}
+
+.marsImage {
+    height: 250px;
+    border: white 1px solid;
+}
+
+.primeira-noticia div {
+    display: flex;
+    justify-content: center;
+}
+
+#grife {
+    background-color: rgba(190, 134, 208, 0.329);
+}
+
+
+#noticias {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#noticias h2,
+img {
+    display: flex;
+    justify-content: center;
+}
+
+#noticias h2 {
+    color: #BE86D0;
+}
+
+#noticias p {
+    color: white;
+}
+
+.segunda-noticia,
+.terceira-noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

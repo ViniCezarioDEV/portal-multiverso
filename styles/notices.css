@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jetbrains-mono {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#titulo {
+    color: black;
+    font-family: "New Amsterdam", sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Image {
+    height: 300px;
+    width: 600px;
+    border: white 1px solid;
+}
+
+body {
+    background: url(../images/stars-space.gif);
+}
+
+header {
+    background-color: rgba(61, 29, 125, 0.822);
+    padding: 2vh;
+}
+
+p {
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+    color: white;
+    padding: 0px 600px;
+}
+
+div div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+    color: white;
+}
